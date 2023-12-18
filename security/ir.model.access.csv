@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+ir_model_access.group_user.sf_book,group_user.sf_book,model_sf_book,base.group_user,1,1,1,1
+ir_model_access.group_user.sf_rent,group_user.sf_rent,model_sf_rent,base.group_user,1,1,1,1
+ir_model_access.group_user.sf_rent_detail,group_user.sf_rent_detail,model_sf_rent_detail,base.group_user,1,1,1,1

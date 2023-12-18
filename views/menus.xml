@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <menuitem id="ir_ui_menu_sf_book_rent" name="Book Rental" web_icon="odoo_bud,static/description/icon.png">
+            <menuitem sequence="1"
+                      id="ir_ui_menu_sf_book_rent_book"
+                      action="ir_actions_act_window_sf_book"/>
+            <menuitem sequence="2"
+                      id="ir_ui_menu_sf_book_rent_rent"
+                      action="ir_actions_act_window_sf_rent"/>
+        </menuitem>
+    </data>
+</odoo>

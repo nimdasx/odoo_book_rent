@@ -1,0 +1,29 @@
+<odoo>
+
+    <!-- list / tree / tabular -->
+    <record id="ir_ui_view_sf_rent_detail_tree" model="ir.ui.view">
+        <field name="name">sf_rent tree view</field>
+        <field name="model">sf_rent_detail</field>
+        <field name="arch" type="xml">
+            <tree string="Tree String Book Rent List" editable="bottom">
+                <field name="sf_book_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- form -->
+    <record id="ir_ui_view_sf_rent_detail_form" model="ir.ui.view">
+        <field name="name">sf_rent form view</field>
+        <field name="model">sf_rent_detail</field>
+        <field name="arch" type="xml">
+            <form string="Form String Book Rent">
+                <sheet>
+                    <group>
+                        <field name="sf_book_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>
